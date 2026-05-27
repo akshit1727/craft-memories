@@ -254,8 +254,7 @@ export default function CraftMemoriesWebsite() {
             </h2>
 
             <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-              Craft Memories is a handcrafted art and heritage brand founded by
-              Anshu Tyagi. Our mission is to preserve India’s traditional
+              Craft Memories is a handcrafted art and heritage brand. Our mission is to preserve India’s traditional
               craftsmanship by connecting skilled artisans with people who value
               culture, creativity, and handmade beauty.
             </p>

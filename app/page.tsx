@@ -155,7 +155,7 @@ export default function CraftMemoriesWebsite() {
       <section className="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-orange-700 font-semibold text-lg mb-4">
-            Founded by Anshu Tyagi
+            Founded by Vidhi
           </p>
 
           <h2 className="text-6xl font-extrabold leading-tight text-orange-900">
@@ -387,7 +387,7 @@ export default function CraftMemoriesWebsite() {
               </h3>
 
               <p className="mt-3 text-gray-600">
-                +91 98765 43210
+                +91 97735 93852
               </p>
             </div>
 

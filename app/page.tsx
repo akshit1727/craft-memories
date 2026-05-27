@@ -4,77 +4,110 @@ export default function CraftMemoriesWebsite() {
       title: "Metal Casting",
       image:
         "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1200&auto=format&fit=crop",
-      description: "Traditional handcrafted metal masterpieces made with timeless techniques.",
+      description:
+        "Traditional handcrafted metal masterpieces made with timeless techniques.",
     },
     {
       title: "Paintings",
       image:
         "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?q=80&w=1200&auto=format&fit=crop",
-      description: "Beautiful paintings inspired by Indian heritage and creativity.",
+      description:
+        "Beautiful paintings inspired by Indian heritage and creativity.",
     },
     {
       title: "Tribal Jewellery",
       image:
         "https://images.unsplash.com/photo-1617038220319-276d3cfab638?q=80&w=1200&auto=format&fit=crop",
-      description: "Authentic tribal jewellery crafted with elegance and culture.",
+      description:
+        "Authentic tribal jewellery crafted with elegance and culture.",
     },
     {
       title: "Bamboo Craft",
       image:
         "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
-      description: "Eco-friendly bamboo creations made by skilled artisans.",
+      description:
+        "Eco-friendly bamboo creations made by skilled artisans.",
     },
     {
       title: "Stone Carving",
       image:
         "https://images.unsplash.com/photo-1518998053901-5348d3961a04?q=80&w=1200&auto=format&fit=crop",
-      description: "Detailed stone carvings reflecting ancient artistic traditions.",
+      description:
+        "Detailed stone carvings reflecting ancient artistic traditions.",
     },
     {
       title: "Embroidery Sarees",
       image:
         "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1200&auto=format&fit=crop",
-      description: "Elegant embroidered sarees woven with beauty and heritage.",
+      description:
+        "Elegant embroidered sarees woven with beauty and heritage.",
     },
     {
       title: "Pottery",
       image:
         "https://images.unsplash.com/photo-1517685352821-92cf88aee5a5?q=80&w=1200&auto=format&fit=crop",
-      description: "Handmade clay pottery crafted with passion and precision.",
+      description:
+        "Handmade clay pottery crafted with passion and precision.",
     },
     {
       title: "Paper Mache",
       image:
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop",
-      description: "Creative paper mache art full of vibrant colors and imagination.",
+      description:
+        "Creative paper mache art full of vibrant colors and imagination.",
     },
     {
       title: "Sandalwood Art",
       image:
         "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop",
-      description: "Luxury sandalwood carvings admired for beauty and fragrance.",
+      description:
+        "Luxury sandalwood carvings admired for beauty and fragrance.",
     },
   ];
 
   const testimonials = [
     {
       name: "Meera Singh",
-      text: "Absolutely beautiful handmade products with amazing craftsmanship!",
+      text:
+        "Absolutely beautiful handmade products with amazing craftsmanship!",
     },
     {
       name: "Aarav Malhotra",
-      text: "Loved the detailing and authentic handcrafted designs.",
+      text:
+        "Loved the detailing and authentic handcrafted designs.",
     },
     {
       name: "Riya Kapoor",
-      text: "One of the best traditional art collections I’ve ever seen.",
+      text:
+        "One of the best traditional art collections I’ve ever seen.",
     },
   ];
 
-  const artisans = [
-    "Ramesh Kumar",
-    "Priya Sharma",
-    "Kavita Joshi",
+  const teamMembers = [
+    {
+      role: "CEO",
+      name: "Vidhi",
+    },
+    {
+      role: "Marketing Head",
+      name: "Tanishka",
+    },
+    {
+      role: "R&D Head",
+      name: "Anchal",
+    },
+    {
+      role: "Design Head",
+      name: "Anshu",
+    },
+    {
+      role: "Finance Head",
+      name: "Hanu",
+    },
+    {
+      role: "Sales & Logistics Head",
+      name: "Sheetal",
+    },
   ];
 
   return (
@@ -91,6 +124,7 @@ export default function CraftMemoriesWebsite() {
               <h1 className="text-3xl font-extrabold text-orange-700">
                 Craft Memories
               </h1>
+
               <p className="text-sm text-gray-600">
                 Crafting Culture Into Timeless Memories
               </p>
@@ -101,12 +135,15 @@ export default function CraftMemoriesWebsite() {
             <a href="#collections" className="hover:text-orange-600 transition">
               Collections
             </a>
+
             <a href="#about" className="hover:text-orange-600 transition">
               About
             </a>
-            <a href="#artisans" className="hover:text-orange-600 transition">
-              Artisans
+
+            <a href="#team" className="hover:text-orange-600 transition">
+              Team
             </a>
+
             <a href="#contact" className="hover:text-orange-600 transition">
               Contact
             </a>
@@ -151,7 +188,10 @@ export default function CraftMemoriesWebsite() {
 
           <div className="absolute -bottom-8 -left-8 bg-white rounded-3xl p-6 shadow-2xl">
             <h3 className="text-4xl font-bold text-orange-700">9+</h3>
-            <p className="text-gray-600">Traditional Craft Categories</p>
+
+            <p className="text-gray-600">
+              Traditional Craft Categories
+            </p>
           </div>
         </div>
       </section>
@@ -162,6 +202,7 @@ export default function CraftMemoriesWebsite() {
           <h2 className="text-5xl font-bold text-orange-800">
             Our Collections
           </h2>
+
           <p className="mt-4 text-lg text-gray-600">
             Discover handcrafted art forms from across India.
           </p>
@@ -195,7 +236,7 @@ export default function CraftMemoriesWebsite() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* About */}
       <section
         id="about"
         className="bg-white/60 backdrop-blur-lg py-24 px-6"
@@ -246,35 +287,46 @@ export default function CraftMemoriesWebsite() {
               key={index}
               className="bg-white rounded-3xl p-8 text-center shadow-xl"
             >
-              <h3 className="text-2xl font-bold text-orange-700">{item}</h3>
+              <h3 className="text-2xl font-bold text-orange-700">
+                {item}
+              </h3>
             </div>
           ))}
         </div>
       </section>
 
-      {/* Artisans */}
-      <section id="artisans" className="bg-orange-100 py-24 px-6">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-5xl font-bold text-orange-800 mb-14">
-            Featured Artisans
+      {/* Team */}
+      <section id="team" className="bg-orange-100 py-24 px-6">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-5xl font-bold text-orange-800 mb-6">
+            Meet Our Team
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-10">
-            {artisans.map((name, index) => (
+          <p className="text-lg text-gray-600 mb-16">
+            The passionate minds behind Craft Memories.
+          </p>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {teamMembers.map((member, index) => (
               <div
                 key={index}
-                className="bg-white rounded-[2rem] p-10 shadow-xl"
+                className="bg-white rounded-[2rem] p-10 shadow-xl hover:-translate-y-2 transition duration-300"
               >
                 <div className="w-28 h-28 mx-auto rounded-full bg-gradient-to-r from-orange-500 to-yellow-400 flex items-center justify-center text-4xl font-bold text-white shadow-lg">
-                  {name.charAt(0)}
+                  {member.name.charAt(0)}
                 </div>
 
-                <h3 className="mt-6 text-2xl font-bold text-orange-700">
-                  {name}
+                <h3 className="mt-6 text-3xl font-bold text-orange-700">
+                  {member.name}
                 </h3>
 
-                <p className="mt-3 text-gray-600">
-                  Skilled artisan preserving traditional craftsmanship.
+                <p className="mt-2 text-orange-600 font-semibold text-lg">
+                  {member.role}
+                </p>
+
+                <p className="mt-4 text-gray-600 leading-relaxed">
+                  Dedicated to preserving traditional craftsmanship with
+                  creativity, passion, and innovation.
                 </p>
               </div>
             ))}
@@ -321,18 +373,33 @@ export default function CraftMemoriesWebsite() {
 
           <div className="grid md:grid-cols-3 gap-8 mt-12">
             <div className="bg-orange-50 p-8 rounded-3xl shadow-md">
-              <h3 className="text-2xl font-bold text-orange-700">Email</h3>
-              <p className="mt-3 text-gray-600">hello@craftmemories.in</p>
+              <h3 className="text-2xl font-bold text-orange-700">
+                Email
+              </h3>
+
+              <p className="mt-3 text-gray-600">
+                hello@craftmemories.in
+              </p>
             </div>
 
             <div className="bg-orange-50 p-8 rounded-3xl shadow-md">
-              <h3 className="text-2xl font-bold text-orange-700">Phone</h3>
-              <p className="mt-3 text-gray-600">+91 98765 43210</p>
+              <h3 className="text-2xl font-bold text-orange-700">
+                Phone
+              </h3>
+
+              <p className="mt-3 text-gray-600">
+                +91 98765 43210
+              </p>
             </div>
 
             <div className="bg-orange-50 p-8 rounded-3xl shadow-md">
-              <h3 className="text-2xl font-bold text-orange-700">Location</h3>
-              <p className="mt-3 text-gray-600">Delhi, India</p>
+              <h3 className="text-2xl font-bold text-orange-700">
+                Location
+              </h3>
+
+              <p className="mt-3 text-gray-600">
+                Delhi, India
+              </p>
             </div>
           </div>
         </div>
@@ -340,7 +407,9 @@ export default function CraftMemoriesWebsite() {
 
       {/* Footer */}
       <footer className="bg-orange-700 text-white py-8 text-center mt-10">
-        <h2 className="text-2xl font-bold">Craft Memories</h2>
+        <h2 className="text-2xl font-bold">
+          Craft Memories
+        </h2>
 
         <p className="mt-3 text-orange-100">
           Crafting Culture Into Timeless Memories
